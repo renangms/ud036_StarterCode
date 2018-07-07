@@ -9,6 +9,16 @@ class Movie():
 
     def __init__(self, title, storyline,
                  poster_image_url, trailer_youtube_url):
+        """
+        Creates a movie object.
+
+        Args:
+
+        title (string): Movie title
+        storyline (string): Movie storyline
+        poster_image_url (string): Movie poster image URL
+        trailer_youtube_url (string): Movie Youtube trailer URL
+        """
         self.title = title
         self.storyline = storyline
         self.poster_image_url = poster_image_url
